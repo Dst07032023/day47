@@ -1,4 +1,4 @@
-package alexQI.java.day47_constructors;
+package alexQI.java.day47_constructors.student;
 
 public class StudentObjects {
     public static void main(String[] args) {
