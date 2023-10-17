@@ -33,5 +33,10 @@ public class C7Group {
             System.out.println("Andrei is not in group2");
         }
 
+        //remove some members from group1
+        group1.removeMember("Pavel");
+        group1.removeMember("Elvin");
+        System.out.println(group1);
+
     }
 }
