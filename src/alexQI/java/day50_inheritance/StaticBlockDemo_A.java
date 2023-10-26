@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class StaticBlockDemo {
+public class StaticBlockDemo_A {
 
     public static class Inner {
         //variables and methods of inner static class
@@ -40,12 +40,12 @@ public class StaticBlockDemo {
     }
 
 
-    public StaticBlockDemo() {
+    public StaticBlockDemo_A() {
         System.out.println("Constructor method");
         num += 5;
     }
 
-    public StaticBlockDemo(int value) {
+    public StaticBlockDemo_A(int value) {
         System.out.println("Overloaded constructor value = " + value);
         num += value;
     }
