@@ -64,5 +64,8 @@ public class ScrumTeam {
         scrumTeam.addTester(tester1);
         scrumTeam.addTester(new Tester("Anna", 12, "SDET", 100909));
         System.out.println(scrumTeam.allTesters);
+
+        scrumTeam.addDeveloper(new Developer("Anton", 1, "dev", 1090090));
+        System.out.println(scrumTeam.allDevelopers);
     }
 }
