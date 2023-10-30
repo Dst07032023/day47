@@ -10,7 +10,7 @@ package alexQI.OficeHours.Practice_06_01_2021;
                 accepts and sets all instance variables
 
             Actions:
-                getter/setters, coding(), fixingBug, toString()
+                getter/setters, coding(), fixingBug(), toString()
  */
 
 public class Developer {
