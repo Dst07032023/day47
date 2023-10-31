@@ -18,5 +18,11 @@ public class ShapeObjects {
         rectangle1.calculateArea();
         rectangle1.calculatePerimeter();
         System.out.println(rectangle1);
+
+        Circle circle1 = new Circle();
+        circle1.radius = 10;
+        circle1.calculateArea();
+        circle1.calculatePerimeter();
+        System.out.println(circle1);
     }
 }
