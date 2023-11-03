@@ -19,4 +19,10 @@ public class Discord extends MobileApp {
         super.useTheApp(minutes);
         chat("Vladislav");
     }
+
+    public void printInfo() {
+        System.out.println("App Name = " + getName());
+        System.out.println("App Version = " + getVersion());
+
+    }
 }
