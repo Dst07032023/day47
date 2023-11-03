@@ -44,8 +44,8 @@ public class WalmartStore {
         this.inventory = new ArrayList<>();
     }
 
-    public WalmartStore(String loction, ArrayList<Item> allItems) {
-        this.location = loction;
+    public WalmartStore(String location, ArrayList<Item> allItems) {
+        this.location = location;
 //        this.inventory = allItems;
         this.inventory = new ArrayList<>(allItems);
         calculateWorth();

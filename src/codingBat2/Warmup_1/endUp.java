@@ -5,8 +5,8 @@ package codingBat2.Warmup_1;
  * are now in upper case. If the string has less than 3 chars,
  * uppercase whatever is there. Note that str.toUpperCase() returns
  * the uppercase version of a string.
- *
- *
+ * <p>
+ * <p>
  * endUp("Hello") → "HeLLO"
  * endUp("hi there") → "hi thERE"
  * endUp("hi") → "HI"
@@ -16,14 +16,15 @@ public class endUp {
     public static void main(String[] args) {
 
     }
+
     public String endUp(String str) {
-        if(str.length() <= 3){
+        if (str.length() <= 3) {
             return str.toUpperCase();
         }
-        String str2 = str.substring(str.length()-3);
-        String str3 = str.substring(0,str.length()-3);
+        String str2 = str.substring(str.length() - 3);
+        String str3 = str.substring(0, str.length() - 3);
 
-        return str3+str2.toUpperCase();
+        return str3 + str2.toUpperCase();
 
     }
 
