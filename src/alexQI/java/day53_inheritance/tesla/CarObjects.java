@@ -18,5 +18,11 @@ public class CarObjects {
         }else{
             System.out.println("purchasing " + ec1.toString());
         }
+
+        System.out.println(ElectricCar.getCount());
+        ElectricCar ec2 = new ElectricCar("Tesla", "CyberTruck", 59990, 2022, 300);
+        System.out.println(ec2.toString());
+        System.out.println("Count = " + ec2.getCount());//call static method using object
+        System.out.println("Count = " + ElectricCar.getCount());//call static method using Classname
     }
 }
