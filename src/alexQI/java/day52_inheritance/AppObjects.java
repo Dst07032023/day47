@@ -13,7 +13,7 @@ public class AppObjects {
         Instagram instagram = new Instagram();
 //        instagram.name = "Instagram";
         instagram.setName("Instagram");
-        instagram.setVersion(5.3);
+        instagram.setVersion(2.3);
         instagram.useTheApp(20);
         instagram.download();
 
