@@ -37,6 +37,9 @@ public class CarObjects {
         System.out.println("Having lunch...");
         myModelX.drive(10);
         System.out.println("Range remaining = " + myModelX.getRange());
-        System.out.println("Total electric cars count = " + ElectricCar.getCount());
+        System.out.println("Total electric cars count = " + ElectricCar.getCount()
+
+
+        );
     }
 }

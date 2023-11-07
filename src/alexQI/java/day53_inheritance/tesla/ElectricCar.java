@@ -3,10 +3,12 @@ package alexQI.java.day53_inheritance.tesla;
 public class ElectricCar {
     private String make;
     private String model;
+
     private double price;
     private int year;
     private int range;
     private static int count; //all object will share this variable
+    public static final int MAX_RANGE = 400;
 
     public ElectricCar(String make, String model, double price, int year, int range) {
         setMake(make); //reuse the code in the setter condition
@@ -15,6 +17,11 @@ public class ElectricCar {
         this.year = year;
         this.range = range;
         count++; //increase count by 1 - everytime new car is created
+    }
+
+    public final void charge() {
+        System.out.println("Charging the Electric car using plug-in");
+        this.range = MAX_RANGE;
     }
 
     public static int getCount(){
