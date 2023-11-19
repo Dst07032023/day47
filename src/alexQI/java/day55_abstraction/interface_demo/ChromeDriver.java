@@ -1,6 +1,11 @@
 package alexQI.java.day55_abstraction.interface_demo;
 
 public class ChromeDriver implements WebDriver {
+
+    public ChromeDriver(){
+        System.out.println("Launching Chrome Browser");
+    }
+
     @Override
     public void get(String url) {
         System.out.println("ChromeDriver - navigating to " + url);
