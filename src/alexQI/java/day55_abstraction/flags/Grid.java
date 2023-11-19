@@ -1,39 +1,39 @@
-//package alexQI.java.day55_abstraction.flags;
-//
-//import javax.swing.*;
-//import java.awt.*;
-//
-//public class Grid extends JPanel {
-//
-//    private static final long serialVersionUID = 0L;
-//    private static final int MARGIN_SIZE = 5;
-//    private int scaleH;
-//    private int scaleW;
-//    private Color[][] colors;
-//    private static final int SQUARE_SIZE = 15; //pixel size of each square
-//    private JFrame frame;
-//
-//    public Grid() {
-//        this(10);
-//    }
-//
-//    public Grid(int scale) {
-//        this.scaleH = scale;
-//        this.scaleW = 2*scale;
-//        int overallSizeH = scaleH + 2 * MARGIN_SIZE;
-//        int overallSizeW = scaleW + 2 * MARGIN_SIZE;
-//        colors = new Color[overallSizeH][overallSizeW];
-//        for (int i = 0; i < overallSizeH; i++) {
-//            for (int j = 0; j < overallSizeW; j++) {
-//                colors[i][j] = Color.LIGHT_GRAY;
-//
-//        javax.swing.SwingUtilities.invokeLater(new Runnable() {
-//            public void run() {
-//                Thread.currentThread().setPriority(Thread.MAX_PRIORITY);
+package alexQI.java.day55_abstraction.flags;
+import javafx.animation.*;
+import javax.swing.*;
+import java.awt.*;
+
+public class Grid extends JPanel {
+
+    private static final long serialVersionUID = 0L;
+    private static final int MARGIN_SIZE = 5;
+    private int scaleH;
+    private int scaleW;
+    private Color[][] colors;
+    private static final int SQUARE_SIZE = 15; //pixel size of each square
+    private JFrame frame;
+
+    public Grid() {
+        this(10);
+    }
+
+    public Grid(int scale) {
+        this.scaleH = scale;
+        this.scaleW = 2*scale;
+        int overallSizeH = scaleH + 2 * MARGIN_SIZE;
+        int overallSizeW = scaleW + 2 * MARGIN_SIZE;
+        colors = new Color[overallSizeH][overallSizeW];
+        for (int i = 0; i < overallSizeH; i++) {
+            for (int j = 0; j < overallSizeW; j++) {
+                colors[i][j] = Color.LIGHT_GRAY;
+
+        javax.swing.SwingUtilities.invokeLater(new Runnable() {
+            public void run() {
+                Thread.currentThread().setPriority(Thread.MAX_PRIORITY);
 //                createAndShowFrame();
-//            }
-//        });
-//    }
+            }
+        });
+    }
 //
 //    public int getScale() {
 //      return scaleH;
@@ -96,7 +96,7 @@
 //        for (int j = 0; j < scaleH + 1; j++) {
 //            g.drawLine(offset, offset + j * SQUARE_SIZE,
 //                      offset + scaleW * SQUARE_SIZE, offset + j * SQUARE_SIZE);
-//        }
-//    }
-//
-//}
+        }
+    }
+
+}
