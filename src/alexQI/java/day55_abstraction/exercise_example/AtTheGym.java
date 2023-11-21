@@ -21,7 +21,8 @@ public class AtTheGym {
 
         freeWeight.start();
         freeWeight.perform();
-        System.out.println("Freeweight 30 mins - calories = " + swimming.getCaloriesCount(30));
+        System.out.println("Freeweight 30 mins - calories = " + freeWeight.getCaloriesCount(30));
+        freeWeight.endLift();
 
     }
 }

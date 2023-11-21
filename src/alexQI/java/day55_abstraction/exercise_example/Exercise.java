@@ -2,7 +2,7 @@ package alexQI.java.day55_abstraction.exercise_example;
 
 public abstract class Exercise {
     public void start(){ //non-abstract method
-        System.out.println("Warming up and starting the exercise");
+        System.out.println("Warming up and starting the exercise1");
     }
 
     /**

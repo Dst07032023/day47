@@ -7,6 +7,7 @@ public class EmailObjects {
         Email email = new Email("batelio@mail.com", 56);
         //email.ADDRESS = "email"; -> ADDRESS is final, so cannot be changed
         System.out.println(email);
+
         System.out.println(Email.domain);
         System.out.println(Gmail.domain);
         System.out.println(Yahoo.domain);
@@ -20,6 +21,7 @@ public class EmailObjects {
         System.out.println();
 
         Yahoo yahoo = new Yahoo("james@yahoo.com", 43);
+        System.out.println(yahoo);
 
         System.out.println(Email.domain);
         System.out.println(Gmail.domain);
@@ -27,6 +29,7 @@ public class EmailObjects {
         System.out.println();
 
         Email email2 = new Email("rest@email", 32);
+        System.out.println(email2);
         System.out.println(Email.domain);
         System.out.println(Gmail.domain);
         System.out.println(Yahoo.domain);

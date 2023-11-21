@@ -9,7 +9,13 @@ public class DriverObjects {
 
         driver1.get("https://www.google.com");
         driver1.findElement("//input[@name='q']");
+        driver1.quit();
         System.out.println("Title = " + driver1.getTitle());
+
+        driver2.get("https://www.mozilla.org/");
+        driver2.findElement("//input[@name='n']");
+        driver2.quit();
+        System.out.println("Title = " + driver2.getTitle());
 
 
     }

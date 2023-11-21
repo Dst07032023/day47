@@ -21,5 +21,6 @@ class Main {
 //        MyInterface myInterface = new MyInterface(); //ERROR: cannot create object of interface
         MyClass myClass = new MyClass();
 
+
     }
 }
