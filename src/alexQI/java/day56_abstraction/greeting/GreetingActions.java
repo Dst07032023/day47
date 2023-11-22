@@ -1,4 +1,4 @@
-package alexQI.java.day56_abstraction;
+package alexQI.java.day56_abstraction.greeting;
 
 public class GreetingActions {
     public static void main(String[] args) {
@@ -7,6 +7,14 @@ public class GreetingActions {
     ml.bye();
 
     Greeting gt = new MountainLanguage();
+    gt.hi();
+    gt.bye();
+
+    Japanese jp = new Japanese();
+    jp.hi();
+    jp.bye();
+
+    gt = new Japanese();
     gt.hi();
     gt.bye();
     }

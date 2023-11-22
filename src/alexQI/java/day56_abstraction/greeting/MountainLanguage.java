@@ -1,4 +1,4 @@
-package alexQI.java.day56_abstraction;
+package alexQI.java.day56_abstraction.greeting;
 
 public class MountainLanguage implements Greeting {
 
