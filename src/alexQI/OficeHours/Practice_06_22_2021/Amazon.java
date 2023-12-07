@@ -19,7 +19,7 @@ public class Amazon extends OnlineShopping implements AllowUsersToSell {
 
     @Override
     public void returnItem() {
-        System.out.println("Returning item form amazon");
+        System.out.println("Returning item from amazon");
     }
 
     @Override
