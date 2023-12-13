@@ -22,12 +22,14 @@ public class Post {
    private String body;
    private final String DATE_TIME;
 
-//    public static void main(String[] args) {
-//        System.out.println(LocalDateTime.now().format(DateTimeFormatter.ofPattern("MMM dd, yy | hh:mm a")));
-//    }
+    public static void main(String[] args) {
+        System.out.println(LocalDateTime.now().format(DateTimeFormatter.ofPattern("MMM dd, yy | hh:mm a")));
+
+    }
    public Post(String body){
        this.body = body;
        DATE_TIME = LocalDateTime.now().format(DateTimeFormatter.ofPattern("MMM dd, yyy | hh:mm a"));
+
 
    }
 
@@ -39,9 +41,9 @@ public class Post {
         this.body = body;
     }
 
-//    public String getDATE_TIME() {
-//        return DATE_TIME;
-//    }
+    public String getDATE_TIME() {
+        return DATE_TIME;
+    }
 
 
 
