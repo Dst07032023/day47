@@ -45,6 +45,11 @@ public class Post {
         return DATE_TIME;
     }
 
-
-
+    @Override
+    public String toString() {
+        return "Post{" +
+                "body='" + body + '\'' +
+                ", DATE_TIME='" + DATE_TIME + '\'' +
+                '}';
+    }
 }
