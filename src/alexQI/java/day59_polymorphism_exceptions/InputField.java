@@ -15,7 +15,7 @@ public class InputField implements WebElement {
 
     @Override
     public void click() {
-        System.out.println("");
+        System.out.println("Clicking on input field");
 
     }
 
