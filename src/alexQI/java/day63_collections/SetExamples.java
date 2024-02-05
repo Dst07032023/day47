@@ -1,9 +1,6 @@
 package alexQI.java.day63_collections;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 public class SetExamples {
     public static void main(String[] args) {
@@ -27,9 +24,12 @@ public class SetExamples {
         words.add("java");
         words.add("java");
         words.add("collection");
+        words.remove("world");
         System.out.println(words);
 
-        for (String String : words) {
+        for (String word : words) {
+
+        }
 
 
         //convert your Set to a list
@@ -38,7 +38,32 @@ public class SetExamples {
         wordsList.add("world");
         System.out.println(wordsList);
 
-        }
+        //LinkedHashSet
 
+        Set<String> linkedHashSet = new LinkedHashSet<>();
+        linkedHashSet.add("24");
+        linkedHashSet.add("java");
+        linkedHashSet.add("$#");
+        linkedHashSet.add("53");
+        linkedHashSet.add("apple");
+        linkedHashSet.add("java");
+        linkedHashSet.add("53");
+        linkedHashSet.add("cucumber");
+        System.out.println(linkedHashSet);
+
+        //TreeSet
+
+        Set<String> treeSet = new TreeSet<>();
+        treeSet.add("24");
+        treeSet.add("java");
+        treeSet.add("$#");
+        treeSet.add("53");
+        treeSet.add("apple");
+        treeSet.add("java");
+        treeSet.add("53");
+        treeSet.add("Cucumber");
+        System.out.println(treeSet);
+//        ((TreeSet)treeSet).first();
+        
     }
 }
